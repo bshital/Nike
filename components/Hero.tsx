@@ -9,7 +9,7 @@ import Image from "next/image"
 
 
 const Hero = () => {
-  const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
+  const [bigShoeImg, setBigShoeImg] = useState(shoes[0].bigShoe);
 
   return (
     <section

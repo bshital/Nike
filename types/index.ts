@@ -6,7 +6,7 @@ export interface ButtonProps {
   backgroundColor?: string,
   textColor?: string,
   borderColor?: string,
-  fullWidth?: string
+  fullWidth?: boolean
 }
 
 export interface ReviewCardProps {
@@ -35,7 +35,6 @@ interface ShoeImgURL {
 export interface ShoeCardProps {
   index?: number,
   imgURL: ShoeImgURL,
-  bigShoeImg: StaticImageData,
+  bigShoeImg: string,
   changeBigShoeImage: (bigShoeImg: string) => void;
-  
 }
